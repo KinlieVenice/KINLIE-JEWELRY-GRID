@@ -424,10 +424,9 @@ img {
 
 .footer__right {
   display: grid;
-text-align: end;
+  text-align: end;
   align-content: start;
 }
-
 
 /* SHOP PAGE */
 .shopBanner {
@@ -481,10 +480,17 @@ text-align: end;
   grid-template-columns: 5rem 18rem;
   align-items: center;
   gap: 2rem;
+  width: 25rem;
 }
 
 .searches p {
   font-weight: bold;
+}
+
+.searches:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transform: scale(1.2);
 }
 
 .searches a {
@@ -512,17 +518,21 @@ text-align: end;
 }
 
 a:hover {
-opacity: 0.5;
+  opacity: 0.5;
 }
 
 .searchTab a:hover {
   background-color: var(--clr-secondary);
   opacity: 1;
   border-radius: 15rem;
+  transform: scale(1.2);
 }
 
 .item:hover {
   color: var(--clr-primary);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 2rem;
+  transform: scale(1.2);
 }
