@@ -225,7 +225,7 @@ img {
 .homeBanner__wrapper {
   display: grid;
   grid-template-columns: 64rem 1fr;
-  grid-template-rows: 50rem;
+  grid-template-rows: 60rem;
   position: relative;
 }
 
@@ -239,7 +239,7 @@ img {
 }
 
 .homeBanner__info {
-  margin-top: 5rem;
+  margin-top: 10rem;
   display: grid;
   grid-template-rows: 22rem 5rem 5rem;
   row-gap: 3rem;
@@ -248,8 +248,8 @@ img {
 .homeBanner__img img {
   position: absolute;
   left: 64rem;
-  height: 50rem;
-  width: 65rem;
+  height: 60rem;
+  width: 82rem;
   object-fit: cover;
 }
 
